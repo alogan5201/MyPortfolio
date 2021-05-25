@@ -8,14 +8,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
-  color: #737f8a;
+  background-color: #e8e8e8;
+  color: rgba(34, 34, 34, 0.8);
 }
 
 body {
-  background-color: #353b43;
+  background-color: #e8e8e8;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: rgba(34, 34, 34, 0.8);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #737f8a;
 }
 
 .color {
@@ -238,7 +238,7 @@ a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 @media (max-width: 480px) {
@@ -303,7 +303,7 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: #737f8a;
 }
 
 .title h2 span {
@@ -323,7 +323,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: rgb(232, 232, 232);
 }
 
 .overly {
@@ -630,7 +630,7 @@ a:hover {
   color: #57cbcc;
 }
 
-.about-2 .content-block .media h4 {
+.about-2 .content-block .media h4, h4.media-heading {
   font-size: 16px;
   font-weight: 600;
 }
@@ -696,7 +696,7 @@ a:hover {
   background-color: transparent;
   border-radius: 0;
   padding: 5px 10px;
-  color: #ddd;
+  color: #737f8a;
   border: 1px solid rgba(236, 239, 241, 0.07);
 }
 
@@ -712,15 +712,15 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #10a8a5;
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  border-color: #10a8a5;
+  background-color: #10a8a5;
 }
 
 .form-meghna ::placeholder {
@@ -1984,6 +1984,9 @@ blockquote {
 
 #comment-form .form-control:hover {
   border-color: #6CB670;
+}
+.form-group {
+  border: solid 1px #737f8a;
 }
 
 .form-group:last-child,

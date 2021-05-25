@@ -1,76 +1,54 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Portfolio
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
+    - name : Digital Marketing Agency
       image : images/portfolio/portfolio-1.jpg
       image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
+      categories : ["websites"]
+      content : first
+      link : "https://www.frontseatseo.andrewlogan.dev/"
       
     # portfolio item loop
-    - name : Sound system
+    - name : Musician / E-commerce
       image : images/portfolio/portfolio-2.jpg
       image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
+      categories : ["websites"]
+      content : second
+      link : https://www.badabings.andrewlogan.dev/
       
     # portfolio item loop
-    - name : Clock Product
+    - name : Photography Agency Logo
       image : images/portfolio/portfolio-3.jpg
       image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["graphic design"]
+      content : third
       link : "#"
-      
-    # portfolio item loop
-    - name : Bottol Label
+
+       # portfolio item loop
+    - name : Calculator
       image : images/portfolio/portfolio-4.jpg
       image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : [ "apps"]
+      content : fourth
       link : "#"
       
     # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
+    - name : Pomodoro App
+      image : images/portfolio/pomodoro.png
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : [ "apps"]
+      content : fifth
+      link : "https://www.pomoprogress.com"
+      
+    # portfolio item loop
+    - name : Studio Animation
+      image : images/portfolio/13thfloor.png
       image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["graphic design"]
+      content : sixth
       link : "#"
       
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+   
