@@ -1,1 +1,1 @@
-#Andrew Logan Portfolio website
+Andrew Logan's Portfolio 
