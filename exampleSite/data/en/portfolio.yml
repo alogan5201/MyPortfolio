@@ -37,7 +37,7 @@ portfolio:
       
     # portfolio item loop
     - name : Pomodoro App
-      image : images/portfolio/pomodoro.png
+      image : images/portfolio/pomodoro-thumbnail.png
       image_webp : images/portfolio/portfolio-4.webp
       categories : [ "apps"]
       content : fifth

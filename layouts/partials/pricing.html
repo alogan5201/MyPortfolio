@@ -1,51 +1,72 @@
-{{ $data := index site.Data site.Language.Lang }}
+<section class="skills section" id="education">
+	<div class="container-fluid " id="post-index"> 
+	  <div id="main">
+		<article>
+		
+	  <div class="container  py-5 soft-skills" id="icon-grid">
+		  
+		<h2 class="pb-2 border-bottom">Education</h2>
+ <div class="row pt-4">
+	<div class="col-lg-4 mb-1 mb-lg-0">
+		<p class="h5 mb-0">Front End Masters</p>
+		<p class="opacity-75">05/2018 - Present</p>
+	</div>
+	<div class="col-lg-8">
+		
+		<ul class="list-unstyled">
+			
+			<li>
+Completed Courses:
+				<ul>
+					<li>Deep JavaScript Foundations, v3 - Kyle Simpson</li>
+					<li>JavaScript: The Hard Parts, v2 - Will Sentance</li>
+					<li>Mastering Chrome Developer Tools v2 - Jon Kuperman</li>
+					<li>JavaScript: From Fundamentals to Functional JS, v2 - Bianca Gandolfo </li>
+          <li>Getting Started with JavaScript, v2 - Kyle Simpson </li>
+          <li>Complete Intro to Web Development, v2 - Brian Holt</li>
+          <li>CSS Grids and Flexbox for Responsive Web Design - Jen Kramer</li>
+          <li>CSS In-Depth, v2 - Estelle Weyl</li>
+          <li>Sass Fundamentals - Mike North</li>
+          <li>Scalable Modular Architecture for CSS (SMACSS) - Jonathan Snook</li>
 
-{{ if $data.pricing.pricing.enable }}
-{{ with $data.pricing.pricing }}
-{{"<!-- Start Pricing section -->" | safeHTML}}
-<section id="pricing" class="pricing section">
-  <div class="container">
-    <div class="row justify-content-center">
+			</ul>
+			</li>
+			
 
-      {{"<!-- section title -->" | safeHTML}}
-      <div class="col-lg-12">
-        <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-            {{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
-          <div class="border-meghna"></div>
-        </div>
-      </div>
-      {{"<!-- /section title -->" | safeHTML}}
+	</ul>
+		
+	</div>
+</div>
+ 
 
-      {{ range .pricing_table }}
-      {{"<!-- single pricing table -->" | safeHTML}}
-      <div class="col-lg-3 col-md-6 col-12 text-center wow fadeInUp" data-wow-duration="200ms">
-        <div class="price-item">
+<div class="row pt-4">
+	<div class="col-lg-4 mb-1 mb-lg-0">
+		<p class="h5 mb-0">Troup County High School</p>
+		<p class="opacity-75">08/2007 - 05/2011</p>
+	</div>
+	<div class="col-lg-8">
+		
+		<ul class="list-unstyled">
+		
+			<li>
 
-          {{"<!-- plan name & value -->" | safeHTML}}
-          <div class="price-title">
-            <h3>{{ .name }}</h3>
-            <p><strong class="value">{{ .price }}</strong>/ {{ .unit }}</p>
-          </div>
+				<ul>
+					<li>High School Diploma</li>
+				
 
-          {{"<!-- plan description -->" | safeHTML}}
-          <ul>
-            {{ range .services }}
-            <li>{{ . }}</li>
-            {{ end }}
-          </ul>
+			</ul>
+			</li>
+			
 
-          {{"<!-- signup button -->" | safeHTML}}
-          {{ with .button }}
-          <a class="btn btn-transparent" href="{{ .link | safeURL }}">{{ .label }}</a>
-          {{ end }}
-        </div>
-      </div>
-      {{"<!-- end single pricing table -->" | safeHTML}}
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{"<!-- /pricing -->" | safeHTML}}
-{{ end }}
-{{ end }}
+	</ul>
+		
+	</div>
+</div>
+
+	  </div>
+	
+		</article>
+	  </div>
+	</div>
+	 
+  </section>
