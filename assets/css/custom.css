@@ -859,3 +859,6 @@ outline: none;
     color:white !important;
     font-family: "Lato", Calibri, Arial, sans-serif !important;
   }
+  .certification img:hover {
+cursor: zoom-in;
+  }
