@@ -41,7 +41,7 @@ portfolio:
       image_webp : images/portfolio/portfolio-4.webp
       categories : [ "apps"]
       content : fifth
-      link : "https://pomoprogress.com"
+      link : "https://www.pomoprogress.com"
       
     # portfolio item loop
     - name : Studio Animation
