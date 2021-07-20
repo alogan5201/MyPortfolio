@@ -41,7 +41,7 @@ portfolio:
       image_webp : images/portfolio/portfolio-4.webp
       categories : [ "apps"]
       content : fifth
-      link : "https://www.pomoprogress.com"
+      link : "https://infinite-sands-94568.herokuapp.com/"
       
     # portfolio item loop
     - name : Studio Animation
