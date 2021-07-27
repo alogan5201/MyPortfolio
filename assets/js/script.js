@@ -232,11 +232,62 @@ function rerender() {
 }
 
 
+
+
+});
+$(document).ready(function(){
+
   //dl-menu dl-menuopen
 $("#dl-menu").click(function(){
 	$(this).toggleClass("dl-menuopen");
 	$(".dl-trigger").toggleClass("dl-active");
 $(".dl-menu").toggleClass("dl-menuopen");
 });
+
+	$(".tabs").click(function(){
+	
+	$(".tabs").removeClass("active");
+	$(".tabs h6").removeClass("font-weight-bold");
+	$(".tabs h6").addClass("text-muted");
+	$(this).children("h6").removeClass("text-muted");
+	$(this).children("h6").addClass("font-weight-bold");
+	$(this).addClass("active");
+	
+	current_fs = $(".active");
+	
+	next_fs = $(this).attr('id');
+	next_fs = "#" + next_fs + "1";
+	
+	$("fieldset").removeClass("show");
+	$(next_fs).addClass("show");
+	
+	current_fs.animate({}, {
+	step: function() {
+	current_fs.css({
+	'display': 'none',
+	'position': 'relative'
+	});
+	next_fs.css({
+	'display': 'block'
+	});
+	}
+	});
+	});
+
+
+	
+	});
+
+	let adminTab = document.getElementById("tab02"); 
+	let clientTab = document.getElementById("tab01")
+	let adminVid = document.getElementById("adminVid");
+
+adminTab.addEventListener("click", function(){
+	adminVid.paused ? adminVid.play() : adminVid.pause();
+
+});
+
+clientTab.addEventListener("click", function(){
+	adminVid.paused ? adminVid.play() : adminVid.pause();
 
 });

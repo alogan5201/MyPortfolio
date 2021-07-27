@@ -55,8 +55,44 @@ portfolio:
 
         # portfolio item loop
     - name: Musician App
-      image: images/portfolio/mobile-app-img-placeholder.png
+      image: images/portfolio/band-app.png
       image_webp: images/portfolio/mobile-app-img-placeholder.webp
       categories: ["apps"]
       content: seventh
+      link: "#"
+
+    - name: Photography App
+      image: images/portfolio/photography.png
+      image_webp: images/portfolio/mobile-app-img-placeholder.webp
+      categories: ["apps"]
+      content: eighth
+      link: "#"
+
+
+    - name: Ecommerce App
+      image: images/portfolio/ecommerce.png
+      image_webp: images/portfolio/mobile-app-img-placeholder.webp
+      categories: ["apps"]
+      content: ninth
+      link: "#"
+      
+    - name: Instagram Clone
+      image: images/portfolio/instaclone.png
+      image_webp: images/portfolio/mobile-app-img-placeholder.webp
+      categories: ["apps"]
+      content: tenth
+      link: "#"
+
+    - name: Rental App
+      image: images/portfolio/villa.png
+      image_webp: images/portfolio/mobile-app-img-placeholder.webp
+      categories: ["apps"]
+      content: eleventh
+      link: "#"
+
+    - name: Restaurant App
+      image: images/portfolio/restaurant.png
+      image_webp: images/portfolio/mobile-app-img-placeholder.webp
+      categories: ["apps"]
+      content: twelth
       link: "#"

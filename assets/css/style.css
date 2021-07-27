@@ -2309,4 +2309,79 @@ figcaption {
   background-position: 50% 50%;
   background-repeat: no-repeat no-repeat;
   position: relative;
+  margin-left: 23px;
+    margin-top: 25px;
+}
+.iphone-bg-black {
+  width: 378px;
+  height: 752px;
+  background-image: url("http://localhost:8080/images/portfolio/IPHONE11-mockup-black.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+  position: relative;
+  margin-left: 23px;
+    margin-top: 25px;
+}
+div.ninth fieldset {
+  display: none
+}
+
+div.ninth fieldset.show {
+  display: block
+}
+
+div.ninth select:focus,
+div.ninth input:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #2196F3 !important;
+  outline-width: 0 !important;
+  font-weight: 400
+}
+
+div.ninth button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0
+}
+
+div.ninth .tabs {
+  margin: 2px 5px 0px 5px;
+  padding-bottom: 10px;
+  cursor: pointer
+}
+
+div.ninth .tabs:hover,
+div.ninth .tabs.active {
+  border-bottom: 1px solid #2196F3
+}
+
+div.ninth a:hover {
+  text-decoration: none;
+  color: #1565C0
+}
+
+div.ninth .box {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px
+}
+
+div.ninth .modal-backdrop {
+  background-color: #64B5F6
+}
+
+div.ninth .line {
+  background-color: #CFD8DC;
+  height: 1px;
+  width: 100%
+}
+
+@media screen and (max-width: 768px) {
+  div.ninth .tabs h6 {
+      font-size: 12px
+  }
 }
