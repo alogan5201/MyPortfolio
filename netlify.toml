@@ -1,6 +1,6 @@
 [build]
   publish = "exampleSite/public"
-  command = "hugo --port 8080 --bind 0.0.0.0 --renderToDisk -d public"
+  command = "hugo server --themesDir ../.."
   
 [build.environment]
   HUGO_VERSION = "0.86.0"
