@@ -2304,7 +2304,7 @@ figcaption {
 .iphone-bg {
   width: 378px;
   height: 752px;
-  background-image: url("http://localhost:8080/images/portfolio/iphone11mockup.png");
+  background-image: url("images/portfolio/iphone11mockup.png");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat no-repeat;
@@ -2315,7 +2315,7 @@ figcaption {
 .iphone-bg-black {
   width: 378px;
   height: 752px;
-  background-image: url("http://localhost:8080/images/portfolio/IPHONE11-mockup-black.png");
+  background-image: url("images/portfolio/IPHONE11-mockup-black.png");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat no-repeat;
