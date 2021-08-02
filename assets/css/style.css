@@ -880,12 +880,13 @@ h4.media-heading {
 
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   opacity: 0;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
+  top: 40px;
+  right: 22px;
+  bottom: 40px;
+  left: 22px;
+  border-radius: 5px;
   position: absolute;
   content: "";
 }
@@ -901,6 +902,7 @@ h4.media-heading {
 
 .portfolio-block:hover .caption h4 {
   top: 45%;
+  color: #333;
 }
 
 .portfolio-block:hover .caption {
