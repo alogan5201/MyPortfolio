@@ -274,7 +274,9 @@ $(".dl-menu").toggleClass("dl-menuopen");
 	});
 	});
 
-
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
 	
 	});
 

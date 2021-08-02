@@ -2310,7 +2310,7 @@ figcaption {
   background-repeat: no-repeat no-repeat;
   position: relative;
   margin-left: 23px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .iphone-bg-black {
   width: 378px;
@@ -2321,7 +2321,7 @@ figcaption {
   background-repeat: no-repeat no-repeat;
   position: relative;
   margin-left: 23px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 div.ninth fieldset {
   display: none
@@ -2385,3 +2385,58 @@ div.ninth .line {
       font-size: 12px
   }
 }
+
+
+.qr-container {
+width: 100%;
+height: 100%;
+}
+
+.qr-band-app {
+width: 200px;
+height: 200px;
+  background-image: url("/images/band-app-qr.png");
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+}
+.qr-photography {
+  width: 200px;
+  height: 200px;
+    background-image: url("/images/photography-qr.png");
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+  }
+  .qr-instaclone{
+    width: 200px;
+    height: 200px;
+      background-image: url("/images/instaclone-qr.png");
+      background-size: contain;
+      background-position: 50% 50%;
+      background-repeat: no-repeat no-repeat;
+    }
+    .qr-rental {
+      width: 200px;
+      height: 200px;
+        background-image: url("/images/rental-qr.png");
+        background-size: contain;
+        background-position: 50% 50%;
+        background-repeat: no-repeat no-repeat;
+      }
+      .qr-restaurant {
+        width: 200px;
+        height: 200px;
+          background-image: url("/images/restaurant-qr.png");
+          background-size: contain;
+          background-position: 50% 50%;
+          background-repeat: no-repeat no-repeat;
+        }
+        .qr-ecommerce {
+          width: 200px;
+          height: 200px;
+            background-image: url("/images/ecommerce-qr.png");
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat no-repeat;
+          }
