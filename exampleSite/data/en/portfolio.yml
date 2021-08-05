@@ -55,21 +55,21 @@ portfolio:
 
         # portfolio item loop
     - name: Musician App
-      image: images/portfolio/band-app.png
+      image: images/portfolio/badabings.png
       image_webp: images/portfolio/mobile-app-img-placeholder.webp
       categories: ["apps"]
       content: seventh
       link: "#"
 
     - name: Ecommerce App
-      image: images/portfolio/ecommerce.png
+      image: images/portfolio/ecommerce-app.png
       image_webp: images/portfolio/mobile-app-img-placeholder.webp
       categories: ["apps"]
       content: ninth
       link: "#"
 
     - name: Instagram Clone
-      image: images/portfolio/instaclone.png
+      image: images/portfolio/instaclone-app.png
       image_webp: images/portfolio/mobile-app-img-placeholder.webp
       categories: ["apps"]
       content: tenth
