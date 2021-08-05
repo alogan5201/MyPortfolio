@@ -333,6 +333,20 @@ var isMobile = {
 };
 
 //test
+/* if (isMobile.any()) {
+  document.getElementById("mobile").innerHTML = "This is mobile browser";
+} else {
+  document.getElementById("mobile").innerHTML = "This is PC browser";
+}
+
+if (isMobile.iPhone()) {
+  document.getElementById("iphone").innerHTML = "-- and iPhone device";
+}
+
+if (isMobile.Android()) {
+  document.getElementById("android").innerHTML = "-- and Android device";
+}*/
+
 if (isMobile.any()) {
   document.getElementById("mobile").innerHTML = "This is mobile browser";
 } else {
