@@ -2312,7 +2312,7 @@ figcaption {
   background-repeat: no-repeat no-repeat;
   position: relative;
   margin-left: 23px;
-    margin-top: 5px;
+  margin-top: 5px;
 }
 .iphone-bg-black {
   width: 378px;
@@ -2323,14 +2323,14 @@ figcaption {
   background-repeat: no-repeat no-repeat;
   position: relative;
   margin-left: 23px;
-    margin-top: 10px;
+  margin-top: 10px;
 }
 div.ninth fieldset {
-  display: none
+  display: none;
 }
 
 div.ninth fieldset.show {
-  display: block
+  display: block;
 }
 
 div.ninth select:focus,
@@ -2338,65 +2338,64 @@ div.ninth input:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #2196F3 !important;
+  border: 1px solid #2196f3 !important;
   outline-width: 0 !important;
-  font-weight: 400
+  font-weight: 400;
 }
 
 div.ninth button:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  outline-width: 0
+  outline-width: 0;
 }
 
 div.ninth .tabs {
   margin: 2px 5px 0px 5px;
   padding-bottom: 10px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 div.ninth .tabs:hover,
 div.ninth .tabs.active {
-  border-bottom: 1px solid #2196F3
+  border-bottom: 1px solid #2196f3;
 }
 
 div.ninth a:hover {
   text-decoration: none;
-  color: #1565C0
+  color: #1565c0;
 }
 
 div.ninth .box {
   margin-bottom: 10px;
   border-radius: 5px;
-  padding: 10px
+  padding: 10px;
 }
 
 div.ninth .modal-backdrop {
-  background-color: #64B5F6
+  background-color: #64b5f6;
 }
 
 div.ninth .line {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
   height: 1px;
-  width: 100%
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   div.ninth .tabs h6 {
-      font-size: 12px
+    font-size: 12px;
   }
 }
 
-
 .qr-container {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .qr-band-app {
-width: 200px;
-height: 200px;
+  width: 200px;
+  height: 200px;
   background-image: url("/images/band-app-qr.png");
   background-size: contain;
   background-position: 50% 50%;
@@ -2405,40 +2404,62 @@ height: 200px;
 .qr-photography {
   width: 200px;
   height: 200px;
-    background-image: url("/images/photography-qr.png");
-    background-size: contain;
-    background-position: 50% 50%;
-    background-repeat: no-repeat no-repeat;
-  }
-  .qr-instaclone{
-    width: 200px;
-    height: 200px;
-      background-image: url("/images/instaclone-qr.png");
-      background-size: contain;
-      background-position: 50% 50%;
-      background-repeat: no-repeat no-repeat;
-    }
-    .qr-rental {
-      width: 200px;
-      height: 200px;
-        background-image: url("/images/rental-qr.png");
-        background-size: contain;
-        background-position: 50% 50%;
-        background-repeat: no-repeat no-repeat;
-      }
-      .qr-restaurant {
-        width: 200px;
-        height: 200px;
-          background-image: url("/images/restaurant-qr.png");
-          background-size: contain;
-          background-position: 50% 50%;
-          background-repeat: no-repeat no-repeat;
-        }
-        .qr-ecommerce {
-          width: 200px;
-          height: 200px;
-            background-image: url("/images/ecommerce-qr.png");
-            background-size: contain;
-            background-position: 50% 50%;
-            background-repeat: no-repeat no-repeat;
-          }
+  background-image: url("/images/photography-qr.png");
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+}
+.qr-instaclone {
+  width: 200px;
+  height: 200px;
+  background-image: url("/images/instaclone-qr.png");
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+}
+.qr-rental {
+  width: 200px;
+  height: 200px;
+  background-image: url("/images/rental-qr.png");
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+}
+.qr-restaurant {
+  width: 200px;
+  height: 200px;
+  background-image: url("/images/restaurant-qr.png");
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+}
+.qr-ecommerce {
+  width: 200px;
+  height: 200px;
+  background-image: url("/images/ecommerce-qr.png");
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+}
+
+.modal-dialog h1,
+.modal-dialog h2,
+.modal-dialog h3,
+.modal-dialog h4,
+.modal-dialog h5,
+.modal-dialog p,
+.modal-dialog ul,
+.modal-dialog li {
+  color: #737f8a !important;
+}
+
+/*
+.modal-dialog p,
+.modal-dialog ul,
+.modal-dialog li {
+  font-size: 1.1em !important;
+}*/
+
+a.live-demo-link-modal:hover h4 {
+  color: #0000ee !important;
+}

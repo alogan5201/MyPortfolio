@@ -1,23 +1,9 @@
-{{ define "main" }}
-
-{{ partial "banner.html" . }}
-
-
-{{ partial "about.html" . }}
+{{ define "main" }} {{ partial "banner.html" . }} {{ partial "about.html" . }}
+<!-- {{ partial "test-modal.html" . }} -->
 
 <!--  {{ partial "experience.html" . }} -->
 
 <!--{{ partial "education.html" . }} -->
 
-
-
-
-
-{{ partial "portfolio.html" . }}
-
-
-{{ partial "contact.html" . }}
-
-{{ partial "map.html" . }}
-
-{{ end }}
+{{ partial "portfolio.html" . }} {{ partial "contact.html" . }} {{ partial
+"map.html" . }} {{ end }}

@@ -298,7 +298,7 @@ adminTab.addEventListener("click", function () {
 clientTab.addEventListener("click", function () {
   adminVid.paused ? adminVid.play() : adminVid.pause();
 });
-
+/* 
 var isMobile = {
   Android: function () {
     return navigator.userAgent.match(/Android/i);
@@ -333,7 +333,7 @@ var isMobile = {
 };
 
 //test
-/* if (isMobile.any()) {
+if (isMobile.any()) {
   document.getElementById("mobile").innerHTML = "This is mobile browser";
 } else {
   document.getElementById("mobile").innerHTML = "This is PC browser";
@@ -345,7 +345,10 @@ if (isMobile.iPhone()) {
 
 if (isMobile.Android()) {
   document.getElementById("android").innerHTML = "-- and Android device";
-}*/
+}
+
+
+
 
 if (isMobile.any()) {
   document.getElementById("mobile").innerHTML = "This is mobile browser";
@@ -360,3 +363,10 @@ if (isMobile.iPhone()) {
 if (isMobile.Android()) {
   document.getElementById("android").innerHTML = "-- and Android device";
 }
+*/
+
+/*
+$(document).ready(function () {
+  $(".second").modal("show");
+});
+*/
